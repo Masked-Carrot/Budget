@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Budget</string>
+    <string name="title_overview">Overview</string>
+    <string name="title_expenditure">Expenditure</string>
+    <string name="title_savings">Savings</string>
+    <string name="lorem_ipsum">lorem ipsum</string>
+    <string name="_5000">$5000</string>
+    <string name="income_this_month">Income this month</string>
+    <string name="spent_this_month">Spent this month</string>
+    <string name="account">Account</string>
+    <string name="budget">Budget</string>
+    <string name="funds">Funds</string>
+</resources>

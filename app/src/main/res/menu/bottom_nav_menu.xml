@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_overview"
+        android:icon="@drawable/ic_main_overview"
+        android:title="@string/title_overview" />
+
+    <item
+        android:id="@+id/navigation_expenditure"
+        android:icon="@drawable/ic_main_expenditure"
+        android:title="@string/title_expenditure" />
+
+    <item
+        android:id="@+id/navigation_savings"
+        android:icon="@drawable/ic_main_savings"
+        android:title="@string/title_savings" />
+
+</menu>

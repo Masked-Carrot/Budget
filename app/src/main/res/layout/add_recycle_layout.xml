@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="130dp"
+    android:id="@+id/recycle_layout_card"
+    android:layout_height="70dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ImageView
+            android:layout_weight="40"
+            android:id="@+id/recycle_layout_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:contentDescription="@string/lorem_ipsum"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_cat_miscell" />
+
+        <TextView
+            android:layout_weight="60"
+            android:id="@+id/recycle_layout_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:contextClickable="false"
+            android:text="@string/lorem_ipsum" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
